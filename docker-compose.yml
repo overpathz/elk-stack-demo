@@ -1,0 +1,11 @@
+version: '1'
+services:
+
+  app:
+    image: demo-elk
+    build: .
+    container_name: demo-elk
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./logs:/app/logs

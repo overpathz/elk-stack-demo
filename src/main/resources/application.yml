@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: elk-stack-demo
+
+logging:
+  level:
+    root: info
+  file:
+    name: logs/demo.log
+
