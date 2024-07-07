@@ -1,3 +1,5 @@
+*do not forget about `logs` dir in project base directory
+
 # How to run ELK
 
 1. Go to "elk" directory
